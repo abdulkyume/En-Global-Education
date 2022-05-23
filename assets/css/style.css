@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+body {
+  font-family: "Dosis", sans-serif;
+  background-color: #ededf0;
+}
+.banner {
+  background: url("../img/1st.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.w-90 {
+  width: 90%;
+}
+.w-91 {
+  width: 92%;
+}
+.activetxt {
+  color: #c25889;
+}
+.txt-pink {
+  color: #c25889;
+}
+.bgcolor {
+  background-color: #19233c;
+}
+.bannerbtn1 {
+  background-color: white;
+  transition: 0.5s;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+.bannerbtn2 {
+  transition: 0.5s;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+.bannerbtn1:hover {
+  background-color: #19223b;
+  color: white;
+}
+.bannerbtn2:hover {
+  background-color: #19223b;
+  color: white;
+}
+.bct1 {
+  margin-top: 9rem;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 900;
+  width: 60%;
+}
+.bct2 {
+  font-size: 18px;
+  line-height: 27px;
+  width: 60%;
+}
+.bannerbtns {
+  margin-bottom: 7rem;
+}
+
+.aboutus img {
+  margin-top: 5rem;
+}
+.aboutusdetails {
+  border: 2px solid white;
+  border-radius: 7px;
+}
+.aboutusimg {
+  max-width: 400px;
+  margin: 0px auto;
+}
+.aboutusbtn {
+  background-color: #c25889;
+  color: white;
+  transition: 0.5s;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.7rem 0.5rem 1.7rem;
+}
+.aboutusbtn:hover {
+  background-color: #19223b;
+  color: white;
+}
+.aboutusabout {
+  margin-top: 10rem;
+  font-family: "Chau Philomene One", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.aboutusenglobal {
+  font-family: "Chau Philomene One", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  color: red;
+}
+.aboutusdesc {
+  color: #19233c;
+  font-size: 18px;
+  line-height: 28.8px;
+}
+.servicesc {
+  background-color: #ee6e6e;
+}
+.servicesimg {
+  border: 2px solid white;
+  border-radius: 0.6rem;
+  width: 200px;
+  height: 200px;
+  transition: 0.5s;
+}
+.servicesimg img {
+  width: 100px;
+  height: 100px;
+}
+.servicesimg:hover {
+  background-color: white;
+}
+.serviceimg:hover {
+  background-color: #c25889;
+}
+.servicestxt {
+  font-size: 30px;
+  font-family: "Chau Philomene One", sans-serif;
+  color: #aef5ef;
+}
+.servicesProvide {
+  font-size: 35px;
+  font-family: "Chau Philomene One", sans-serif;
+  color: white;
+}
+.contactus {
+  background-color: #117d90;
+}
+.contactus input {
+  border: 2px solid white;
+  border-radius: 0.3rem;
+  background: transparent;
+  width: 100%;
+  outline: none;
+}
+
+.contactus input::placeholder {
+  color: white;
+}
+.applyonline {
+  font-family: "Chau Philomene One", sans-serif;
+  margin-top: 13rem;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 900;
+  color: white;
+}
+.upcoming {
+  font-family: "Chau Philomene One", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 900;
+  color: white;
+}
+.contactus input[value="submit"] {
+  color: white;
+  transition: 0.4s;
+}
+.contactus input[value="submit"]:hover {
+  background-color: #19223b;
+}
+.subscribe {
+  background-color: #ff592d;
+}
+.submitemail {
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+.submitbtn {
+  background: transparent;
+  border-style: solid;
+  border-width: 2px 2px 2px 0px;
+  border-color: white;
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+  width: 120px;
+  transition: 0.4s;
+}
+.submitbtn:hover {
+  background-color: #19223b;
+  color: white;
+}
+.submitemail::placeholder {
+  color: white;
+  text-align: center;
+}
+.subtonews {
+  font-size: 30px;
+  font-family: "Chau Philomene One", sans-serif;
+  font-weight: bolder;
+}
+.subtonewsdet {
+  font-size: 18px;
+  font-family: "Chau Philomene One", sans-serif;
+}
+.ourpartner {
+  background-color: #5e17eb;
+}
+.ourpartnert {
+  font-size: 30px;
+  font-family: "Chau Philomene One", sans-serif;
+  font-weight: bolder;
+}
+.ourpartneruni {
+  font-size: 35px;
+  font-family: "Chau Philomene One", sans-serif;
+  font-weight: bold;
+  color: #b3fcf6;
+}
+.contactus {
+  background-color: #19233c;
+}
+.sociallinks {
+  background-color: #535a6d;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  display: inline-flex;
+}
+.contactinfo {
+  color: white;
+  font-size: 20px;
+  font-family: "Chau Philomene One", sans-serif;
+}
+.quicklinks {
+  color: white;
+  font-size: 20px;
+  font-family: "Chau Philomene One", sans-serif;
+}
+.ourpartnersay {
+  background-color: #ff592d;
+}
+.upcoming {
+  color: #602962;
+  font-size: 30px;
+  font-family: "Chau Philomene One", sans-serif;
+}
+.upcomingevent {
+  background-color: #5ce1e6;
+}
+.event {
+  font-size: 35px;
+  font-family: "Chau Philomene One", sans-serif;
+}
+.findmorebtn {
+  background-color: #DC3545;
+  transition: 0.5s;
+  border-radius: 0.5rem;
+  padding: 0.3rem 2rem 0.3rem 2rem;
+}
+.findmorebtn:hover {
+  background-color: #19223b;
+}
+.faq{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) #5CE1E6;
+}
+.faqfaq{
+  margin-bottom: 0px;
+  color: white;
+}
+.faqdet{
+  margin-top: 0px;
+  color: white;
+  font-size: 35px;
+  font-family: "Chau Philomene One", sans-serif;
+}
+.accordion-item{
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.accordion-button{
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.faqs{
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+.blog{
+  background-color: #EE6E6E;
+}
+.readour{
+  font-size: 30px;
+  font-family: "Chau Philomene One", sans-serif;
+  font-weight: bolder;
+}
+.recentblog{
+  font-size: 35px;
+  font-family: "Chau Philomene One", sans-serif;
+  font-weight: bold;
+  color: #b3fcf6;
+}
