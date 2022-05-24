@@ -132,7 +132,7 @@ img{
   color: white;
 }
 .contactus {
-  background-color: #117d90;
+  background-color: #117E92;
 }
 .contactus input {
   border: 2px solid white;
@@ -215,7 +215,7 @@ img{
   font-weight: bold;
   color: #b3fcf6;
 }
-.contactus {
+.contactusdet {
   background-color: #19233c;
 }
 .sociallinks {
@@ -369,4 +369,33 @@ img{
 }
 .blogcard img{
   border-radius: 0.7rem;
+}
+.studentsaycard img{
+  border-radius: 50%;
+}
+.studentsaycard{
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.starcolor{
+  color: #C25889;
+}
+.responsivenav{
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  right: 0;
+  left: 0;
+  width: 60%;
+}
+.partnersaycard{
+  background-color: white;
+  max-width: 500px;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  margin-bottom: 4rem;
+}
+.partnersaycard img{
+  border-radius: 50%;
 }
