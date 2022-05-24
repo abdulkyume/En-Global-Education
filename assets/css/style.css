@@ -327,3 +327,18 @@ img{
   border-radius: 50%;
   border: 2px solid grey;
 }
+.eventimg{
+  border: 1px solid red;
+  margin-bottom: -45px;
+}
+.eventdetails{
+  background-color: white;
+  padding: 1.9rem;
+  border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
+  margin: auto;
+  max-width: 374px;
+  transition: 0.5s;
+}
+.eventdetails:hover{
+  background-color: #C25889;;
+}
