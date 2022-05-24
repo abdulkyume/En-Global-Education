@@ -317,3 +317,13 @@ img{
 .faqsbg img{
   opacity: 80%;
 }
+.unicard{
+  background-color: white;
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 0.6rem;
+}
+.unicard img{
+  border-radius: 50%;
+  border: 2px solid grey;
+}
