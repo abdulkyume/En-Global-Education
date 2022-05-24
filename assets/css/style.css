@@ -329,16 +329,44 @@ img{
 }
 .eventimg{
   border: 1px solid red;
-  margin-bottom: -45px;
+  
 }
 .eventdetails{
   background-color: white;
   padding: 1.9rem;
   border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
   margin: auto;
-  max-width: 374px;
   transition: 0.5s;
+  margin-top: -40px;
 }
 .eventdetails:hover{
-  background-color: #C25889;;
+  background-color: #C25889;
+}
+.findmorebtndiv{
+  margin-top: 9rem;
+  margin-bottom: 3rem;
+}
+.blogsticker{
+  background-color: #C25889;
+  width: 4rem;
+  text-align: center;
+  top: 10rem;
+  left: 16rem;
+  color: white;
+}
+.blogsticker h3{
+  font-family: "Chau Philomene One", sans-serif;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.blogsticker p{
+  margin-top: 0;
+}
+.blogcard{
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.7rem;
+}
+.blogcard img{
+  border-radius: 0.7rem;
 }
