@@ -73,6 +73,10 @@ img{
   max-width: 400px;
   margin: 0px auto;
 }
+.aboutusimg img{
+  margin-bottom: 0;
+  margin-top: 4rem;
+}
 .aboutusbtn {
   background-color: #c25889;
   color: white;
@@ -401,4 +405,7 @@ img{
 }
 .nav-transparent {
   background-color: transparent;
+}
+.bgservice{
+  background-color: #c25889;
 }

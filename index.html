@@ -15,7 +15,8 @@
 
 <body>
     <!-- header start -->
-    <header id="navhead">
+    <header>
+        <!-- sticky navbar start -->
         <div class="container-fluid bg-white d-none responsivenav" id="mynav">
             <div class="container">
                 <div class="row">
@@ -32,25 +33,25 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
                                     <li class="nav-item">
-                                        <a class="nav-link activetxt" aria-current="page" href="#">HOME</a>
+                                        <a class="nav-link activetxt" aria-current="page" href="./index.html">HOME</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link text-black" href="#">ABOUT US</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-black" href="#">SERVICES</a>
+                                        <a class="nav-link text-black" href="#services">SERVICES</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-black" href="#">UNIVERSITIES</a>
+                                        <a class="nav-link text-black" href="#universities">UNIVERSITIES</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-black" href="#">EVENTS</a>
+                                        <a class="nav-link text-black" href="#events">EVENTS</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link text-black" href="#">SCHOLARSHIP</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-black" href="#">BLOG</a>
+                                        <a class="nav-link text-black" href="#blogs">BLOG</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link text-black" href="#">CONTACT</a>
@@ -62,7 +63,9 @@
                 </div>
             </div>
         </div>
-            
+        <!-- sticky navbar end -->
+
+        <!-- navbar start -->
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
@@ -79,25 +82,25 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
                                     <li class="nav-item">
-                                        <a class="nav-link activetxt" aria-current="page" href="#">HOME</a>
+                                        <a class="nav-link activetxt" aria-current="page" href="./index.html">HOME</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link text-black" href="#">ABOUT US</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-black" href="#">SERVICES</a>
+                                        <a class="nav-link text-black" href="#services">SERVICES</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-black" href="#">UNIVERSITIES</a>
+                                        <a class="nav-link text-black" href="#universities">UNIVERSITIES</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-black" href="#">EVENTS</a>
+                                        <a class="nav-link text-black" href="#events">EVENTS</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link text-black" href="#">SCHOLARSHIP</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-black" href="#">BLOG</a>
+                                        <a class="nav-link text-black" href="#blogs">BLOG</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link text-black" href="#">CONTACT</a>
@@ -109,11 +112,12 @@
                 </div>
             </div>
         </div>
+        <!-- navbar end -->
     </header>
     <!-- header end -->
 
     <!-- banner start -->
-    <section class="">
+    <section >
         <div class="container-fluid">
             <div class="container">
                 <div class="row ">
@@ -139,7 +143,7 @@
     <!-- banner end -->
 
     <!-- aboutus start -->
-    <section class="aboutus">
+    <section id="aboutus">
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
@@ -203,7 +207,7 @@
     <!-- aboutus end -->
 
     <!-- services start -->
-    <section class="services">
+    <section id="services">
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
@@ -211,19 +215,19 @@
                         <div class="row p-5">
                             <p class="text-center servicestxt mb-0">Services</p>
                             <p class="text-center servicesProvide mt-0">We Provide</p>
-                            <div class="col-lg-3 text-center">
-                                <div class="servicesimg row justify-content-center align-items-center m-0 m-auto">
+                            <div class="col-lg-3 text-center" >
+                                <div class="servicesimg row justify-content-center align-items-center m-0 m-auto " onmouseover="changes(this)" onmouseleave="changes2(this)">
                                     <div class="bg-white d-flex justify-content-center align-items-center serviceimg"
                                         style="width: 120px; height: 120px;">
                                         <img class="img-fluid serviceimgtxt" src="./assets/img/elgcheck.png"
                                             alt="elegibility check" />
                                     </div>
-                                    <a class="text-center text-white text-decoration-none fw-bold" href="#">Eligibility
+                                    <a class=" text-center text-white text-decoration-none fw-bold" href="#">Eligibility
                                         Check</a>
                                 </div>
                             </div>
                             <div class="col-lg-3 text-center">
-                                <div class="servicesimg row justify-content-center align-items-center m-0 m-auto">
+                                <div class="servicesimg row justify-content-center align-items-center m-0 m-auto" onmouseover="changes(this)" onmouseleave="changes2(this)">
                                     <div class="bg-white d-flex justify-content-center align-items-center"
                                         style="width: 120px; height: 120px;">
                                         <img class="img-fluid" src="./assets/img/scholarship.png" alt="scholarship" />
@@ -233,7 +237,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 text-center">
-                                <div class="servicesimg row justify-content-center align-items-center m-0 m-auto">
+                                <div class="servicesimg row justify-content-center align-items-center m-0 m-auto " onmouseover="changes(this)" onmouseleave="changes2(this)">
                                     <div class="bg-white d-flex justify-content-center align-items-center"
                                         style="width: 120px; height: 120px;">
                                         <img class="img-fluid" src="./assets/img/freecousel.png" alt="freecousel" />
@@ -243,7 +247,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 text-center">
-                                <div class="servicesimg row justify-content-center align-items-center m-0 m-auto mb-5">
+                                <div class="servicesimg row justify-content-center align-items-center m-0 m-auto mb-5" onmouseover="changes(this)" onmouseleave="changes2(this)">
                                     <div class="bg-white d-flex justify-content-center align-items-center"
                                         style="width: 120px; height: 120px;">
                                         <img class="img-fluid" src="./assets/img/freeapplic.png" alt="freeapplic" />
@@ -253,7 +257,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 text-center">
-                                <div class="servicesimg row justify-content-center align-items-center m-0 m-auto mb-5">
+                                <div class="servicesimg row justify-content-center align-items-center m-0 m-auto mb-5" onmouseover="changes(this)" onmouseleave="changes2(this)">
                                     <div class="bg-white d-flex justify-content-center align-items-center"
                                         style="width: 120px; height: 120px;">
                                         <img class="img-fluid" src="./assets/img/visaappli.png" alt="visaappli" />
@@ -263,7 +267,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 text-center">
-                                <div class="servicesimg row justify-content-center align-items-center m-0 m-auto mb-5">
+                                <div class="servicesimg row justify-content-center align-items-center m-0 m-auto mb-5" onmouseover="changes(this)" onmouseleave="changes2(this)">
                                     <div class="bg-white d-flex justify-content-center align-items-center"
                                         style="width: 120px; height: 120px;">
                                         <img class="img-fluid" src="./assets/img/airticket.png" alt="airticket" />
@@ -273,7 +277,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 text-center">
-                                <div class="servicesimg row justify-content-center align-items-center m-0 m-auto mb-5">
+                                <div class="servicesimg row justify-content-center align-items-center m-0 m-auto mb-5" onmouseover="changes(this)" onmouseleave="changes2(this)">
                                     <div class="bg-white d-flex justify-content-center align-items-center"
                                         style="width: 120px; height: 120px;">
                                         <img class="img-fluid" src="./assets/img/interview.png" alt="interview" />
@@ -283,7 +287,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 text-center">
-                                <div class="servicesimg row justify-content-center align-items-center m-0 m-auto mb-5">
+                                <div class="servicesimg row justify-content-center align-items-center m-0 m-auto mb-5" onmouseover="changes(this)" onmouseleave="changes2(this)">
                                     <div class="bg-white d-flex justify-content-center align-items-center"
                                         style="width: 120px; height: 120px;">
                                         <img class="img-fluid" src="./assets/img/accomadation.png" alt="accomadation" />
@@ -301,7 +305,7 @@
     <!-- services end -->
 
     <!-- applyonline start -->
-    <section class="">
+    <section id="">
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
@@ -380,7 +384,7 @@
     <!-- subscribe end -->
 
     <!-- ourpartner start -->
-    <section>
+    <section id="universities">
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
@@ -471,7 +475,7 @@
     <!-- ourpartner say end -->
 
     <!-- upcoming event start -->
-    <section>
+    <section id="events">
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
@@ -670,7 +674,7 @@
     <!-- faq end -->
 
     <!-- blog start -->
-    <section>
+    <section id="blogs">
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
