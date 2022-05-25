@@ -360,6 +360,7 @@ img{
 }
 .eventdetails:hover{
   background-color: #C25889;
+  color: white;
 }
 .findmorebtndiv{
   margin-top: 9rem;
@@ -457,6 +458,9 @@ img{
 }
 .ourteam{
   background-color: #F4F1C8;
+}
+.teams{
+  margin-bottom: 10rem;
 }
 @keyframes fade {
   from {
