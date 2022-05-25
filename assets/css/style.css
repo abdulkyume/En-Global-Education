@@ -94,6 +94,12 @@ img{
   font-weight: bolder;
   font-size: 30px;
 }
+.aboutusabout1 {
+  margin-top: 3rem;
+  font-family: "Chau Philomene One", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
 .aboutusenglobal {
   font-family: "Chau Philomene One", sans-serif;
   font-weight: bolder;
@@ -107,6 +113,9 @@ img{
 }
 .servicesc {
   background-color: #ee6e6e;
+}
+.servicesc1 {
+  background-color: #F4F1C8;
 }
 .servicesimg {
   border: 2px solid white;
@@ -129,6 +138,11 @@ img{
   font-size: 30px;
   font-family: "Chau Philomene One", sans-serif;
   color: #aef5ef;
+}
+.missiontxt {
+  font-size: 30px;
+  font-family: "Chau Philomene One", sans-serif;
+  color: black;
 }
 .servicesProvide {
   font-size: 35px;
@@ -417,7 +431,33 @@ img{
 .fade {
   animation: fade ease-in-out 1.5s forwards;
 }
-
+.aboutbanner{
+  background: url("../img/about-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.aboutbannercontent{
+  background: linear-gradient(to bottom, #353232 0%, #1c0f60 100%);
+  opacity: 0.9;
+}
+.aboutmargin{
+  margin-top: 16rem;
+  margin-bottom: 4rem;
+}
+.homelinkhover{
+  color: white;
+}
+.homelinkhover:hover{
+  color: #602962;
+}
+.aboutimg{
+  margin-top: 3.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.ourteam{
+  background-color: #F4F1C8;
+}
 @keyframes fade {
   from {
     opacity: 0.4;
