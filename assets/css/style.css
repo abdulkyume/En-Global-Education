@@ -7,6 +7,18 @@ body {
 img{
   max-width: 100%;
 }
+section{
+  max-width: 75rem;
+  margin: auto;
+}
+header{
+  max-width: 75rem;
+  margin: auto;
+}
+footer{
+  max-width: 75rem;
+  margin: auto;
+}
 .banner {
   background: url("../img/1st.jpg");
   background-position: center;
@@ -461,6 +473,14 @@ img{
 }
 .teams{
   margin-bottom: 10rem;
+}
+.navbar {
+  width: 90%;
+}
+@media screen and (min-width: 480px) {
+  .navbar {
+    width: 100%;
+  }
 }
 @keyframes fade {
   from {
