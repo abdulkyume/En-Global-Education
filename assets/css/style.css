@@ -381,6 +381,10 @@ img{
   background-color: white;
   padding: 1rem;
   border-radius: 1rem;
+  transition: 1s;
+}
+.studentsaycardd{
+  display: none;
 }
 .starcolor{
   color: #C25889;
@@ -408,4 +412,17 @@ img{
 }
 .bgservice{
   background-color: #c25889;
+}
+.fade {
+  animation: fade ease-in-out 1.5s forwards;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
