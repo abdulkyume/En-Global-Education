@@ -2,9 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
 body {
   font-family: "Dosis", sans-serif;
-  background-color: white;
+  background-color: #EDEDF0;
   max-width: 75rem;
   margin: auto;
+  padding: 0;
 }
 img{
   max-width: 100%;
@@ -14,8 +15,12 @@ img{
   background-position: center;
   background-size: cover;
 }
+.navbar{
+  padding-right: 0;
+  padding-left: 0;
+}
 .w-90 {
-  max-width: 90%;
+  max-wiadth: 90%;
   margin: 0px auto
 }
 .w-91 {
@@ -409,7 +414,9 @@ img{
 .responsivenav{
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 100;
+  width: 100%;
 } 
 .partnersaycard{
   background-color: white;
