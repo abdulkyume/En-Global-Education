@@ -2,22 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
 body {
   font-family: "Dosis", sans-serif;
-  background-color: #ededf0;
+  background-color: white;
+  max-width: 75rem;
+  margin: auto;
 }
 img{
   max-width: 100%;
-}
-section{
-  max-width: 75rem;
-  margin: auto;
-}
-header{
-  max-width: 75rem;
-  margin: auto;
-}
-footer{
-  max-width: 75rem;
-  margin: auto;
 }
 .banner {
   background: url("../img/1st.jpg");
