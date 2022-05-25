@@ -316,7 +316,8 @@ img{
   padding-bottom: 100px;
 }
 .raow{
-  z-index: 100;
+  position: relative;
+  z-index: 1;
 }
 .faqsbg img{
   opacity: 80%;
