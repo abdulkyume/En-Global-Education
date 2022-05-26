@@ -244,16 +244,22 @@ img{
   background-color: #19233c;
 }
 .sociallinks {
-  background-color: #535a6d;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
   text-align: center;
   margin: 1rem;
   align-items: center;
   justify-content: center;
   vertical-align: middle;
   display: inline-flex;
+}
+.sociallinks i {
+  background-color: #353232; 
+  padding: 0.4rem 0.5rem 0.4rem 0.5rem;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.sociallinks i:hover {
+  background-color: white;
+  color: #c25889;
 }
 .contactinfo {
   color: white;
