@@ -4,7 +4,7 @@ body {
   font-family: "Dosis", sans-serif;
   background-color: #EDEDF0;
   max-width: 75rem;
-  margin: auto;
+  margin: 0 auto;
   padding: 0;
 }
 img{
@@ -128,7 +128,7 @@ img{
 .servicesimg {
   border: 2px solid white;
   border-radius: 0.6rem;
-  width: 200px;
+  max-width: 200px;
   height: 200px;
   transition: 0.5s;
 }
@@ -376,9 +376,9 @@ img{
   background-color: #C25889;
   width: 4rem;
   text-align: center;
-  top: 10rem;
-  left: 16rem;
   color: white;
+  bottom: -20px;
+  right: 30px;
 }
 .blogsticker h3{
   font-family: "Chau Philomene One", sans-serif;
