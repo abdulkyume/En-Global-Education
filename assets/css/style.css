@@ -521,3 +521,44 @@ img{
     opacity: 1;
   }
 }
+.cmnbtnl{
+  position: absolute;
+  top: 105%;
+  left: 40%;
+  z-index: 1;
+  background: transparent;
+  border:none;
+  color: #117E92;
+  font-size: 25px;
+}
+.cmnbtnr{
+  position: absolute;
+  top: 105%;
+  right: 40%;
+  z-index: 1;
+  background: transparent;
+  border:none;
+  color: #117E92;
+  font-size: 25px;
+}
+
+.cmnbtnl1{
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  z-index: 1;
+  background: transparent;
+  border:none;
+  color: white;
+  font-size: 25px;
+}
+.cmnbtnr1{
+  position: absolute;
+  top: 90%;
+  right: 40%;
+  z-index: 1;
+  background: transparent;
+  border:none;
+  color: white;
+  font-size: 25px;
+}
